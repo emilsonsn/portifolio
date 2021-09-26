@@ -1,0 +1,50 @@
+#sobre{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    min-width: 800px;
+    min-height: 600px;
+    font-family: 'Poppins';
+}
+#sobre .card{
+    position: absolute;
+    background: white;
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all 0.7s ease-in-out;
+}
+#sobre .card:hover{
+    width: 230px;
+    padding: 15px;
+}
+#sobre .card h1{
+    text-align: center;
+}
+#sobre .card p{
+    color: rgb(22, 22, 22);
+    font-weight: 600;
+}
+
+#sobre .card1{
+    top: 5%;
+    left: 10%;
+}
+#sobre .card2{
+    top: 25%;
+    left: 40%;
+}
+#sobre .card3{
+    top: 5%;
+    left: 70%;
+}
+#sobre .card4{
+    top: 69%;
+    left: 15%;
+}
+#sobre .card5{
+    top: 60%;
+    left:68%;
+}
+

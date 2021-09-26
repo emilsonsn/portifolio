@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emilson Souza</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sobre.css">
+
+</head>
+<body>
+    <div class="left">
+        <div class="foto">
+            <img src="imagens/fotos/eu.jpg">
+        </div>
+            <h1 class="nome">
+                Emilson<br>
+                Souza
+            </h1>
+            <div class="icons">
+                <a href="#"><img src="./imagens/icons/facebook.png"></a>
+                <a href="#"><img src="./imagens/icons/instagram.png"></a>
+                <a href="#"><img src="./imagens/icons/whatsapp.png"></a>
+                <a href="#"><img src="./imagens/icons/github.png"></a>
+                <a href="#"><img src="./imagens/icons/gmail.png"></a>
+            </div>
+    </div> <!---left-->
+    <div class="right">
+        <div class="nav">
+            <ul>
+                <li class="select" onclick="requisitarPagina('sobre.html')">Sobre mim</li>
+                <li onclick="requisitarPagina('experiencia.html')" >Experiências</li>
+                <li onclick="requisitarPagina('projetos.html')" >Projetos</li>
+            </ul>
+        </div>
+        <div id="main-right">
+           <iframe src="sobre.html" frameborder="0" id="iframe-main" class="iframe-main"></iframe>
+        </div>
+    </div><!---right-->
+    <script src="index.js"></script>
+</body>
+</html>

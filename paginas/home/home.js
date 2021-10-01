@@ -3,7 +3,7 @@ incrementador = 0;
     if(document.getElementById("img-1").style.opacity <=0){
         const set = setInterval(() => {
             document.getElementById("img-1").style.opacity = incrementador
-            incrementador=incrementador+0.08
+            incrementador=incrementador+0.06
             if(document.getElementById("img-1").style.opacity>=1){
                 clearInterval(set);
                 diminuir()
@@ -15,7 +15,7 @@ incrementador = 0;
         if(document.getElementById("img-1").style.opacity >=1){
             const set = setInterval(() => {
                 document.getElementById("img-1").style.opacity = incrementador
-                incrementador=incrementador-0.08
+                incrementador=incrementador-0.06
                 if(document.getElementById("img-1").style.opacity<=0){
                     clearInterval(set);
                     aumentar()
@@ -23,3 +23,4 @@ incrementador = 0;
         }, 50);
     }
 }
+aumentar()

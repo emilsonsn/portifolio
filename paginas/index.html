@@ -15,31 +15,31 @@
 <body>
     <div class="left">
         <div class="foto">
-            <img src="imagens/fotos/eu.jpg">
+            <img src="../imagens/fotos/eu.jpg">
         </div>
             <h1 class="nome">
                 Emilson<br>
                 Souza
             </h1>
             <div class="icons">
-                <a href="#"><img src="./imagens/icons/facebook.png"></a>
-                <a href="#"><img src="./imagens/icons/instagram.png"></a>
-                <a href="#"><img src="./imagens/icons/whatsapp.png"></a>
-                <a href="#"><img src="./imagens/icons/github.png"></a>
-                <a href="#"><img src="./imagens/icons/gmail.png"></a>
+                <a href="#"><img src="../imagens/icons/facebook.png"></a>
+                <a href="#"><img src="../imagens/icons/instagram.png"></a>
+                <a href="#"><img src="../imagens/icons/whatsapp.png"></a>
+                <a href="#"><img src="../imagens/icons/github.png"></a>
+                <a href="#"><img src="../imagens/icons/gmail.png"></a>
             </div>
     </div> <!---left-->
     <div class="right">
         <div class="nav">
             <ul>
-                <li class="select" onclick="requisitarPagina('home.html')">HOME</li>
-                <li onclick="requisitarPagina('sobre.html')">Sobre mim</li>
-                <li onclick="requisitarPagina('experiencia.html')" >Experiências</li>
-                <li onclick="requisitarPagina('projetos.html')" >Projetos</li>
+                <li id="home" class="actived" onclick="requisitarPagina('home/home.html')">HOME</li>
+                <li id="sobre" onclick="requisitarPagina('./sobre/sobre.html')">Sobre mim</li>
+                <li id="experiencia" onclick="requisitarPagina('./experiencia/experiencia.html')" >Experiências</li>
+                <li id="projeto" onclick="requisitarPagina('./projetos/projetos.html')" >Projetos</li>
             </ul>
         </div>
         <div id="main-right">
-           <iframe class="iframe-main" src="/home.html" frameborder="0"></iframe>
+           <iframe class="iframe-main" id="iframe-main" src="home/home.html" frameborder="0"></iframe>
         </div>
     </div><!---right-->
     <script src="index.js"></script>

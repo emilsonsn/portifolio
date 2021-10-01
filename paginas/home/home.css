@@ -9,6 +9,7 @@ img{
     width: 200px;
     height: 200px;
     align-self: center;
+    cursor: pointer;
 }
 body{
     display: flex;

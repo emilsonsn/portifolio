@@ -46,4 +46,13 @@ function mudarAtivado(endereco){
 }
 
 
+function expandirContainerPrincipal(){
+    document.getElementById("left").classList.toggle("left-hidden")
+    document.getElementById("adjustment-button").classList.toggle("adjustment-button-hidden")
+    document.getElementById("right").classList.toggle("right-expanded")
+}
+
+setTimeout( () => {
+    expandirContainerPrincipal()
+},10)
 

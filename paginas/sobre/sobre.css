@@ -14,6 +14,7 @@
     padding: 10px;
     border-radius: 15px;
     transition: all 0.7s ease-in-out;
+    border:3px solid  rgb(245, 12, 109);
 }
 #sobre .card:hover{
     width: 230px;
@@ -40,11 +41,11 @@
     left: 70%;
 }
 #sobre .card4{
-    top: 69%;
-    left: 15%;
+    top: 59%;
+    left: 10%;
 }
 #sobre .card5{
     top: 60%;
-    left:68%;
+    left:70%;
 }
 

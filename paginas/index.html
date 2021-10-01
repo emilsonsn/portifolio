@@ -13,7 +13,10 @@
 
 </head>
 <body>
-    <div class="left">
+    <div class="left left-hidden" id="left">
+        <div class="adjustment-button" id="adjustment-button" onclick="expandirContainerPrincipal()">
+
+        </div>
         <div class="foto">
             <img src="../imagens/fotos/eu.jpg">
         </div>
@@ -29,7 +32,7 @@
                 <a href="#"><img src="../imagens/icons/gmail.png"></a>
             </div>
     </div> <!---left-->
-    <div class="right">
+    <div class="right right-expanded" id="right">
         <div class="nav">
             <ul>
                 <li id="home" class="actived" onclick="requisitarPagina('home/home.html')">HOME</li>

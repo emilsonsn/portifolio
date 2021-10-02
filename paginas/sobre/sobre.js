@@ -1,8 +1,22 @@
-let cards = document.getElementsByClassName('card')
-
+let sobre = document.getElementById('sobre')
 setTimeout(() => {
-    for (let i = 0; i<5;i++){
-        cards[i].style.transformStyle = 'translateX(100px);'
+    sobre.style.width = "90%"
+    if(sobre.style.height < 600){
+        abrir()
     }
-}, 1000);
-    
+}, 100);
+
+function abrir (){
+    setTimeout(() => {
+        sobre.style.transition = "all 10s"
+        sobre.style.height = "1600px"
+        expandirTotal()
+    }, 100);
+}
+function expandirTotal(){
+    setTimeout(() => {
+        sobre.style.height = "100%"
+    }, 3000);
+}
+
+

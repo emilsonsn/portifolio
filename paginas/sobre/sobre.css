@@ -8,8 +8,7 @@
     width: 20%;
     height: 40px;
     background: black;
-    border: 1px solid white;
-    overflow-x: hidden;
+    overflow: hidden;
     transition: all 0.8s;
 }
 #sobre .card{

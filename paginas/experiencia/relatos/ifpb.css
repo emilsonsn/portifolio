@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 00px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    background: rgb(0, 0, 0);
+    
+    color: rgb(255, 255, 255);
+}
+
+ul{
+    font-family: "Poppins";
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+}

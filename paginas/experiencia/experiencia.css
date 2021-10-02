@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.menu div{
+    cursor: pointer;
+}
+.menu .ifpb{
+    background: url("../../imagens/icons/IFPB.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 130px;
+    height: 130px;
+    border:1px solid black;
+    border-radius: 100%;
+    background-color: white;
+}
+.menu .officecom{
+    background: url("../../imagens/icons/officecom.jpg");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 130px;
+    height: 130px;
+    border:1px solid black;
+    border-radius: 150px;
+    background-color: white;
+}
+.menu .ufpb{
+    background: url("../../imagens/icons/UFPB.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 130px;
+    height: 130px;
+    border:1px solid black;
+    border-radius: 150px;
+    background-color: white;
+}
+
+.actived{
+    border: 5px solid rgb(245,12,109) !important;
+}
+
+iframe{ 
+    display: block;
+    margin: 4% auto;
+    width: 90%;
+    height: 380px;
+    border-radius:80px;
+}

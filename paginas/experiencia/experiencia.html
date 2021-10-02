@@ -12,12 +12,13 @@
 </head>
 <body>
     <nav class="menu">
-        <div  onclick="mudarExperiencia()" class="ifpb actived"></div>
-        <div  onclick="mudarExperiencia()" class="officecom"></div>
-        <div  onclick="mudarExperiencia()" class="ufpb"></div>
+        <div  onclick="mudarExperiencia('ifpb')" class="ifpb actived" id="ifpb"></div>
+        <div  onclick="mudarExperiencia('officecom')" class="officecom" id="officecom"></div>
+        <div  onclick="mudarExperiencia('ufpb')" class="ufpb" id="ufpb"></div>
     </nav>
     <main>
-        <iframe src="./relatos/ifpb.html" frameborder="0"></iframe>
+        <iframe src="./relatos/ifpb/ifpb.html" frameborder="0" id="iframe"></iframe>
     </main>
+    <script src="experiencia.js"></script>
 </body>
 </html>

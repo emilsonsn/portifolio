@@ -12,7 +12,7 @@
     cursor: pointer;
 }
 .menu .ifpb{
-    background: url("../../imagens/icons/IFPB.png");
+    background: url("../imagens/icons/IFPB.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,7 +23,7 @@
     background-color: white;
 }
 .menu .officecom{
-    background: url("../../imagens/icons/officecom.jpg");
+    background: url("../imagens/icons/officecom.jpg");
     background-size: 70%;
     background-repeat: no-repeat;
     background-position:center;
@@ -34,7 +34,7 @@
     background-color: white;
 }
 .menu .ufpb{
-    background: url("../../imagens/icons/UFPB.png");
+    background: url("../imagens/icons/UFPB.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position:center;

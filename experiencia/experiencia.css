@@ -56,3 +56,11 @@ iframe{
     height: 380px;
     border-radius:80px;
 }
+
+
+@media(max-width:800px){
+    .menu div{
+        width: 90px !important;
+        height: 90px !important;
+    }
+}

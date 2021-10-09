@@ -9,6 +9,7 @@ body{
     width: 100vw;
     min-width: 100vw;
     min-height: 100%;
+    background: black;
 
 }
 .left{
@@ -138,7 +139,7 @@ iframe{
     width: 100%;
 }
 
-@media(max-width:1000px){
+@media(max-width:800px){
 
     .left{
         position: absolute;
@@ -156,6 +157,9 @@ iframe{
     }
 
     .nav ul {
-        display: none;
+        display: block;
+    }
+    .nav ul li{
+        text-align: center;
     }
 }

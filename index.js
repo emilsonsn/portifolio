@@ -54,5 +54,6 @@ function expandirContainerPrincipal(){
 
 setTimeout( () => {
     expandirContainerPrincipal()
+    alert("Para melhor vizualização, ver em um computador/notebook")
 },10)
 

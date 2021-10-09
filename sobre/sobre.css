@@ -22,8 +22,17 @@
 }
 #sobre .card ul{
     list-style: none;
-    margin-left: 100px;
+    margin-left: 70px;
     color: rgb(245, 12, 109);
     font-weight:600;
     text-transform: uppercase;
+}
+
+@media(max-width:800px){
+    #sobre .card span{
+        font-size: 1.3rem;
+    }
+    h2{
+        font-size: 1.1rem;
+    }
 }

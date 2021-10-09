@@ -51,3 +51,18 @@ main{
     font-size: 1.02rem;
     color: white;
 }
+
+
+@media(max-width:800px){
+    .card{
+        width: 360px;
+        height: 100%;
+        margin: 10px 0;
+    }
+    .info .titulo{
+        font-size: 1rem;
+    }
+    body{
+        width: 100%;
+    }
+}

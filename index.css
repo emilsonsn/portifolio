@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins";
+    max-width: 100%;
 }
 body{
     height: 100%;
@@ -135,4 +136,26 @@ body{
 iframe{
     height:100%;
     width: 100%;
+}
+
+@media(max-width:1000px){
+
+    .left{
+        position: absolute;
+        width: 100%;
+
+    }
+    .right{
+        position: absolute;
+        top:100%;
+        left: 0;
+        width: 100%;
+    }
+    .adjustment-button{
+        display: none;
+    }
+
+    .nav ul {
+        display: none;
+    }
 }

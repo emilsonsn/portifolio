@@ -1,4 +1,4 @@
-<h1 align="center"> Portifolio pessoal<h1>
+<h1 align="center"> Portifolio pessoal</h1>
 
 Esse projeto tem como intuito apresentar a minhas experiências e trabalhos em tecnologia por meio de um pagina web.
 

@@ -4,6 +4,8 @@ Esse projeto tem como intuito apresentar a minhas experiências e trabalhos em t
 
 O site tem um menu que contem as seguintes escolhas "HOME", "SOBRE MIM", 'EXPERIÊNCIAS" e "PROJETOS".
 
+publicado em [`http://emilson-souza.epizy.com`](http://emilson-souza.epizy.com)
+
 - **HOME** : Conteúdo incial, apenas a enemuração de algumas caracteristicas minhas e apresentação de quem eu sou.
 
 - **SOBRE MIM** : Aqui está as informações sobre minha vida acadêmica e as tecnologias que eu conheço e venho estudando/trabalhando.

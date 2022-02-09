@@ -52,8 +52,5 @@ function expandirContainerPrincipal(){
     document.getElementById("right").classList.toggle("right-expanded")
 }
 
-setTimeout( () => {
-    expandirContainerPrincipal()
-    alert("Para melhor vizualização, ver em um computador/notebook")
-},10)
+
 

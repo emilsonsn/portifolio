@@ -112,11 +112,14 @@ body{
     color: rgb(245, 12, 109) !important;
     border:1px solid rgb(245, 12, 109);
 }
-.foto img{
-    width: 122px;
-    height: 120px;
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 165px;
+    height: 170px;
     border-radius: 150px;
-    display: block;
     margin: 10% auto;
 }
 

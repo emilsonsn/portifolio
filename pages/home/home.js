@@ -20,6 +20,7 @@ incrementador = 0;
                     clearInterval(set);
                     aumentar()
             }
+                
         }, 50);
     }
 }
